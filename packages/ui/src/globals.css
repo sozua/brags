@@ -2,36 +2,18 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Radix SAGE */
 @layer base {
   :root {
-    --background: 0 0% 100%;
-    --foreground: 20 14.3% 4.1%;
-    --card: 0 0% 100%;
-    --card-foreground: 20 14.3% 4.1%;
-    --popover: 0 0% 100%;
-    --popover-foreground: 20 14.3% 4.1%;
-    --primary: 24 9.8% 10%;
-    --primary-foreground: 60 9.1% 97.8%;
-    --secondary: 60 4.8% 95.9%;
-    --secondary-foreground: 24 9.8% 10%;
-    --muted: 60 4.8% 95.9%;
-    --muted-foreground: 25 5.3% 44.7%;
-    --accent: 60 4.8% 95.9%;
-    --accent-foreground: 24 9.8% 10%;
-    --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 60 9.1% 97.8%;
-    --border: 20 5.9% 90%;
-    --input: 20 5.9% 90%;
-    --ring: 20 14.3% 4.1%;
-    --radius: 0.3rem;
-  }
-
-  .dark {
-    --background: 20 14.3% 4.1%;
-    --foreground: 60 9.1% 97.8%;
+    --background: 150, 6%, 7%;
+    --foreground: 240 6.2% 93.7%;
+    --surface: 150, 4%, 9%;
+    --surface-foreground: 60 0% 96%;
+    --surface-secondary: 150, 3%, 13%;
+    --surface-secondary-foreground: 60 0% 96%;
     --card: 20 14.3% 4.1%;
     --card-foreground: 60 9.1% 97.8%;
-    --popover: 20 14.3% 4.1%;
+    --popover: 160, 4%, 16%;
     --popover-foreground: 60 9.1% 97.8%;
     --primary: 60 9.1% 97.8%;
     --primary-foreground: 24 9.8% 10%;
@@ -43,10 +25,12 @@
     --accent-foreground: 60 9.1% 97.8%;
     --destructive: 0 62.8% 30.6%;
     --destructive-foreground: 60 9.1% 97.8%;
-    --border: 12 6.5% 15.1%;
+    --border: 156, 4%, 28%;
     --input: 12 6.5% 15.1%;
     --ring: 24 5.7% 82.9%;
+    --radius: 0.3rem;
   }
+
 }
 
 @layer base {
